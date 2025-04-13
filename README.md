@@ -1,10 +1,5 @@
 # Geo-fencing System
 
-模擬地理圍籬系統，使用6顆接收器在平面上建構出虛擬圍籬，而回傳資料給接收器時並未依照圍籬順序。
+Simulate a geo-fencing system with six receivers are used to construct a virtual fence on the plane, and data returned to receivers does not follow the order of the fence.
 
-故此實作部分是排序接收器順序，將第一個收到回傳資料的接收器視為原點，並以逆時鐘方向輸出各接受器的座標。
-
-Input : 6個接受器座標(隨機不按順序)
-
-Output : 依照第一個收到回傳資料的接收器以逆時鐘方向輸出各接受器的座標
-
+Therefore, the this work is to sort the order of receivers, consider the first receiver that receives the return data as the origin, and output the coordinates of each receiver in the counterclockwise direction.
